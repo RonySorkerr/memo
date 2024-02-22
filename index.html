@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- cnds -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- styles -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!--  -->
+    <title>RS Memo</title>
+</head>
+
+<body class="container mx-auto">
+
+    <header>
+
+        <h1 id="orgName" class="text-center">PH Cash Memo</h1>
+        <p id="orgAddress">Mirpur - 69.5, Dhaka-335500, Dhaka, Bangladesh</p>
+        <p id="orgContact">01318630358, 0123465789213  || phcashmemo@contact.com</p>
+    </header>
+
+    <main>
+        <section>
+            <h1 id="invBll">Invoice/Bill</h1>
+        </section>
+        <section>
+            <div class="" id="invsDtl">
+                <div class="">
+                    <p>Sales Order No : <span id="slsOrdNo"></span></p>
+                    <p>Invoice No: <span id="invsno"></span></p>
+                    <p>Buyer name : <span id="buyrName"></span></p>
+                    <p>Buyer Address <span id="buyeAddress"></span></p>
+                </div>
+                <div class="">
+                    <p>Date : <span id="date"></span></p>
+                    <p>Time : <span id="time"></span></p>
+                    <p>Sold By : <span id="sldBy"></span></p>
+                    <p>Zone : <span id="zone"></span></p>
+                    <p>Remark : <span id="remark"></span></p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <table id="prdctTlb">
+                <tr>
+                    <th class="">Sl No.</th>
+                    <th>Product Description</th>
+                    <th>Quantity</th>
+                    <th>Unit Price</th>
+                    <th style="border-bottom: 2px solid black;">Total</th>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>BENQ 2244HQ</td>
+                    <td>1</td>
+                    <td>14500</td>
+                    <td>14500</td>
+                </tr>
+            </table>
+        </section>
+
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

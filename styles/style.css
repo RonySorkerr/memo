@@ -1,0 +1,30 @@
+#orgName{
+    color: red;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#orgAddress{
+    text-align: center;
+}
+
+#orgContact{
+    text-align: center;
+}
+#invBll{
+    text-align: center;
+}
+#invsDtl{
+    display: flex;
+    justify-content: space-between;
+}
+
+table{
+    width: 100%;
+    border: 1px solid darkcyan;
+}
+
+th, td{
+    border: 1px solid pink;
+    padding: 5px;
+    text-align: center;
+}

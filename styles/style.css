@@ -18,13 +18,3 @@
     justify-content: space-between;
 }
 
-table{
-    width: 100%;
-    border: 1px solid darkcyan;
-}
-
-th, td{
-    border: 1px solid pink;
-    padding: 5px;
-    text-align: center;
-}
